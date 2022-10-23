@@ -1,0 +1,24 @@
+nav
+{
+  top: 0;
+  position: sticky;
+  z-index: 10;
+  width: 100%;
+  background-color: black;
+  font-size: 20px;
+}
+nav #meniu
+{
+  text-align: center;
+  padding: 0;
+}
+nav #meniu > li
+{
+  list-style: none;
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  padding: 10px 0;
+  border:1px solid black;
+  background-color: black;
+}

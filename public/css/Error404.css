@@ -1,0 +1,21 @@
+#button{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    /* border: 2px solid black;   */
+}
+#button button{
+    
+    padding: 5px;
+    border: 2px dashed red;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-image: url(../images/error404.png);     
+    background-size: 100%;
+}

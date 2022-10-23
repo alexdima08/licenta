@@ -1,0 +1,90 @@
+body {
+    background-color: #1ac0c6;
+}
+#title{
+    text-align: center;
+    font-size: 3em;
+    font-family: cursive;
+}
+
+#return {
+    display: flex;
+    padding: 5px;
+    border: 2px dashed red;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 1em auto;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+#continutprofil{
+    background-color: #dee0e6;
+    width: 60%;
+    max-height:70vh;
+    margin: auto;
+    padding: .5em;
+    border-radius: 0.5em;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#continutprofil::-webkit-scrollbar {
+    width: 20px;
+    /* width of the entire scrollbar */
+}
+
+#continutprofil::-webkit-scrollbar-track {
+    background: #ffa822;
+    /* color of the tracking area */
+}
+
+#continutprofil::-webkit-scrollbar-thumb {
+    background-color: #ff6150;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid orange;
+    /* creates padding around scroll thumb */
+}
+
+.info{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    border: 1px solid black;
+    margin: .5em auto;
+    padding: 0.2em;
+    width: 80%;
+}
+.title{
+    /* margin-right: 2em; */
+    font-size: 1em;
+    font-family: cursive;
+    margin-left: .5em;
+}
+.content{
+    /* margin-left: 2em; */
+    font-size: 1em;
+    font-family: cursive;
+    margin-right: .5em;
+}
+#edit{
+    display: flex;
+    margin: 1em auto;
+    border-radius: .5em;
+    font-size:1.5em;
+    font-family: cursive;
+    background-color:#ffa822;
+}
+h2{
+    font-size: 2em;
+    font-family: cursive;
+    color: black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}

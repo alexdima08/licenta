@@ -1,0 +1,203 @@
+
+#UserZone {
+    display: grid;
+    grid-template-areas: 
+        "zona1 zona1 zona2 zona2"
+        "zona1 zona1 zona3 zona3"
+        "zona4 zona4 zona4 zona4";
+    /* grid-gap: 3rem; */
+    /* border: 1px solid black; */
+    width: 25%;
+}
+
+body {
+  background-color: #1ac0c6;
+}
+
+#zona1
+{
+  grid-area: zona1;
+  outline:2px solid black;
+  padding: 1rem;
+  width:auto;
+}
+#zona2
+{
+  grid-area: zona2;
+  outline:2px solid black;
+  padding: 1rem;
+  display: flex;
+}
+
+#zona3
+{
+  grid-area: zona3;
+  outline:2px solid black;
+  padding: 1rem;
+  background-color: black;
+}
+
+#zona4
+{
+  grid-area: zona4;
+  outline:2px solid black;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.profile-image{
+    width: 100%;
+    height: auto;
+}
+.profile-image,.profile-picture{
+    display:block;
+}
+
+#svgelem{
+  min-height:.7em;
+
+}
+#svgelem,#playername{
+    display:inline;
+}
+
+#progresslvl{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#progresslvl2{
+  border-radius: 20px;
+  background-color:rgb(127, 134, 127);
+  width: 100%;
+  height: 100%;
+}
+#experience{
+    /* color: #134e6f; */
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: -18%;
+    
+}
+.optiuni{
+  list-style: none;
+  padding: 0.5em;
+  font-size: 17px;
+  border-radius: 0.5em;
+  border: 0;
+  cursor: pointer;
+  margin-right: 0.2em;
+  font-family: monospace;
+}
+
+.optiuni:hover {
+  background-color: indigo;
+  color: whitesmoke;
+}
+
+.optiuni:active {
+  background-color: forestgreen;
+  color: whitesmoke;
+}
+
+#sliderCategory{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5em;
+}
+.option{
+  background-color: burlywood;
+  width: 35%;
+  border-radius: 5%;
+  padding: .8em;
+  
+}
+#titluCategorie{
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.tryQuizz{
+  display: flex;
+  border-radius: 1em;
+  width: inherit;
+  margin:auto;
+  justify-content:space-around;
+  cursor: pointer;
+  padding: 0.5em;
+  margin-top: 1em;
+  border: 0;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.tryQuizz:hover {
+  background-color:aqua;
+}
+
+.arrow{
+  font-size: 27px;
+  cursor: pointer;
+  margin: 0 .6em;
+}
+
+.hide {
+  display: none;
+}
+
+
+#sliderDailyChallenge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5em;
+  padding-bottom: 5em;
+}
+
+
+#timer{
+  text-align:center;
+  font-size: 1.25em;
+  font-family:cursive;
+}
+
+#reviewbox{
+  display: block;
+  /* justify-content: center; */
+  background-color: rgb(255, 168, 34);
+  border-radius: 1em;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  /* margin-top: 5em; */
+  margin-bottom: 5em;
+  padding-bottom: 1em;
+}
+
+#feedback{
+  display: block;
+  margin: auto;
+}
+#titluzonarecenzie{
+  text-align: center;
+  font-size: 2em;
+  font-family:cursive;
+}
+#savefeedback{
+  display: flex;
+  margin: .5em auto;
+  /* background-color: whitesmoke; */
+  /* list-style: none; */
+  padding: 0.5em;
+  font-size: 17px;
+  border-radius: 0.5em;
+  border: 0;
+  cursor: pointer;
+  /* margin-top: 0.2em; */
+  font-family: monospace;
+}
