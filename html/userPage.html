@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/user.css" type="text/css"/>
+    <script defer src="/js/user.js"></script>
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+    <title>UserPage</title>
+</head>
+<body>
+    <section id="UserZone">
+        <div id="zona1">
+            
+            <img class='profile-image' src='public/images/icons_resized/icon1.png'>
+
+            <select class="profile-picture" onchange='getPicture(this)'>
+                <option value="public/images/icons_resized/icon1.png">1</option>
+                <option value="public/images/icons_resized/icon2.png">2</option>
+                <option value="public/images/icons_resized/icon3.png">3</option>
+                <option value="public/images/icons_resized/icon4.png">4</option>
+              </select>
+
+        </div>
+
+        <div id="zona2">
+            <svg id = "svgelem"  viewbox="3 20 55 40" xmlns = "http://www.w3.org/2000/svg" >
+                <polygon points="30,3 12,54 57,18 3,18 48,54" fill="blue"/>
+                <text id="lvlplayer" x="25" y="34" fill="white" style="font-size: 20;"></text>
+             </svg>
+            <h2 id="playername"></h2>
+        </div>
+
+        <div id="zona3">
+            
+            <div id="progresslvl2">
+                <div id="progresslvl"></div>
+                <p id="experience"></p>
+            </div>
+            
+        </div>
+
+        <div id="zona4">
+            <button class="optiuni" onclick="ProfilePage()">
+                Profil
+            </button>
+            <button class="optiuni" onclick="Historypage()">
+                Istoric
+            </button>
+            <button class="optiuni" onclick="LogOut()" >
+                Deconectare
+            </button>
+            <!-- <button class="optiuni" onclick="LogOut()" >
+                UserPage
+            </button> -->
+        </div>
+        
+
+        <!-- <button onclick="TryQuizz()"> Try a quizz</button> -->
+
+    </section>
+
+    <div id="sliderCategory">
+    </div>
+
+    <div id="sliderDailyChallenge">
+    </div>
+
+    <div id="reviewbox">
+        <h2 id="titluzonarecenzie">Scrieți o recenzie</h2>
+        <textarea id="feedback" rows="6" cols="50" > </textarea>
+        <button id="savefeedback" onclick="SaveFeedback()">Salvează recenzia</button>
+        <button id="savefeedback" onclick="paginaPrincipala()">Înapoi de la pagina principală</button>
+    </div>
+    
+</body>
+</html>

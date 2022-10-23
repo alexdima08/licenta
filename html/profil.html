@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/profil.css" type="text/css"/>
+    <script defer src="/js/profil.js"></script>
+    <title>Profile</title>
+</head>
+<body>
+    <h1 id="title">Profile</h1>
+    <div id="continutprofil">
+        <h2> Date personale </h2>
+        <div class="info">
+            <label class="title" >Username:</label>
+            <p class="content" id="username"></p>
+        </div>
+        <div class="info">
+            <label class="title">Data nașterii:</label>
+            <p class="content" id="data">-</p>
+        </div>
+        <div class="info">
+            <label class="title">Țara de proveniență:</label>
+            <p class="content" id="tara">-</p>
+        </div>
+        <div class="info">
+            <label class="title">Adresa de e-mail:</label>
+            <p class="content" id="email">-</p>
+        </div>
+        <div class="info">
+            <label class="title">Hobby-uri:</label>
+            <p class="content" id="hobby">-</p>
+        </div>
+
+        <button id="edit" onclick="EditProfil()"> Editare Profil</button>
+        <button id="edit" onclick="Resetare()"> Resetare</button>
+        <h2> Realizări </h2>
+        <div class="info">
+            <label class="title">Numărul de chestionare completate:</label>
+            <p class="content" id="Qnumber">0</p>
+        </div>
+        <div class="info">
+            <label class="title">Numărul de răspunsuri corecte:</label>
+            <p class="content"  id="Cnumber">0</p>
+        </div>
+        <div class="info">
+            <label class="title">Numărul total de răspunsuri :</label>
+            <p class="content" id="Tnumber">0</p>
+        </div>
+        <div class="info">
+            <label class="title">Numărul chestionare cu număr maxim de răspunsuri corecte:</label>
+            <p class="content" id="Nfullcorrect" >0</p>
+        </div>
+        <div class="info">
+            <label class="title" >Domeniul accesat cel mai des:</label>
+            <p class="content" id="Ocategory">0</p>
+        </div>
+        <!-- <div class="info">
+            <label class="title">Dificultatea aleasă cel mai des :</label>
+            <p class="content" id="Odificulty">-</p>
+        </div> -->
+    </div>
+    <button id="return"><a href="/userpage">Return to UserPage</a></button>
+</body>
+</html>
